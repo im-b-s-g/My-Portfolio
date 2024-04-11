@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;;
+}
+
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    margin-top:15%;
+    gap:4rem;
+    color:white;
+}
+
+.f-content span{
+    margin-left: 1.5%;
+    font-size: 4vh;
+    font-weight: bolder
+}
+
+.f-icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:3rem;
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 9rem;     
+        justify-content: space-around;
+        
+    }
+
+    .f-content{
+        transform: scale(.9);
+        gap:.5rem;
+        margin-bottom: 1rem;
+    }
+
+    
+}
